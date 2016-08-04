@@ -4,7 +4,7 @@
 
 > **A.** Imagine that you are doing a code review for the following piece. What notes would you make? 
 >
-> _note: ITTest1Worker class interface is described below the sample. Assume that ITTest1Worker is a part of some third-party library, so **is not a target to change.**_
+> _note: Assume that ITTest1Worker is a part of some third-party library, so **is not a target to change.**_
 
 ```swift
 class ITTest1ViewController: UIViewController {
@@ -71,7 +71,7 @@ class ITTest3ViewController: UIViewController {
 <br/>
 > **D.** What would you change in the following example to make sure both long jobs are executed *in parallel*? The method should still log message *3* after first two.
 >
-> _note: ITTest4Worker class interface described below the sample. Assume that ITTest4Worker is a part of some third-party library, so **is not a target to change.**_
+> _note: Assume that ITTest4Worker is a part of some third-party library, so **is not a target to change.**_
 
 ```swift
 class ITTest4ViewController: UIViewController {
